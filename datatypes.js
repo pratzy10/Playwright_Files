@@ -1,3 +1,5 @@
+const { partialDeepStrictEqual } = require("assert")
+
 // Printing the Datatype String in log
 var Name = "Pradeep"
 console.log("The Datatype of the Variable Name is: "+typeof Name)
@@ -17,3 +19,9 @@ console.log("The Datatype of the Variable Empty is: "+typeof Empty)
 //Printing Datatype Null in log
 let Zilch = null
 console.log("The Datatype of the Variable Zilch is: "+ typeof Zilch)
+
+var x = "P"
+function name(){
+    var c = 20
+}
+console.log(c)
